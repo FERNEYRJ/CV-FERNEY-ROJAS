@@ -30,8 +30,8 @@ const Contact = () => {
       <Container>
         <h2 className="text-center mb-4">Contacto</h2>
         <div className="text-center mb-4">
-          <p>Email: ferneyrj@hotmail.com</p>
-          <p>Teléfono: (57) 316-232-9867</p>
+          <p><strong>Email:</strong> ferneyrj@hotmail.com</p>
+          <p><strong>Teléfono:</strong> (57) 316-232-9867</p>
         </div>
         <Row>
           <Col md={{ span: 6, offset: 3 }}>
