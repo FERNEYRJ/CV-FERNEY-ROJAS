@@ -10,9 +10,9 @@ const Contact = () => {
     e.preventDefault();
 
     // Reemplaza con tus propias claves de EmailJS
-    const serviceID = 'YOUR_SERVICE_ID';
-    const templateID = 'YOUR_TEMPLATE_ID';
-    const publicKey = 'YOUR_PUBLIC_KEY';
+    const serviceID = 'service_xv2arw9';
+    const templateID = 'template_6z90z1 i';
+    const publicKey = 'wHlsFLN6Wq8qAxgnI';
 
     emailjs.sendForm(serviceID, templateID, form.current, publicKey)
       .then((result) => {

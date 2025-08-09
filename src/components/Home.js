@@ -17,7 +17,22 @@ const Home = () => {
         <Row className="mt-4">
           <Col>
             <p style={{ textAlign: 'justify' }}>
-              Con amplia experiencia en el sector tecnológico. Experto en administración de bases de datos (PostgreSQL, Oracle, SQL Server), desarrollo de aplicaciones en múltiples lenguajes (C#, Python, JavaScript, .NET) y gestión de entornos de producción. Sólida formación en ciberseguridad, metodologías ágiles y desarrollo web full stack. Experiencia demostrada en pruebas de software, automatización y gestión de calidad. Destacada capacidad de liderazgo adquirida como emprendedor y gerente de servicio técnico. Profesional orientado a resultados, con habilidad para el trabajo en equipo y la resolución de problemas bajo presión. Comprometido con el aprendizaje continuo y la excelencia técnica.
+          Ingeniero de software con especialización en Seguridad de la Información, con más de 10 años de experiencia en el sector tecnológico. Experto en la administración de bases de datos PostgreSQL, Oracle y SQL Server, y en el desarrollo de aplicaciones con C#, Python, JavaScript y .NET. Mi experiencia abarca la gestión de entornos de producción, la optimización de backups de bases de datos y el desarrollo web full stack.<br />
+
+
+
+
+
+Cuento con una sólida formación en ciberseguridad , respaldada por diplomados y cursos en el área. Actualmente, estoy en proceso de obtener la certificación de:<br /> 
+
+
+
+
+
+Auditor Líder ISO IEC 27001:2022, lo que complementa mi experiencia en auditoría de sistemas de gestión.<br />
+
+
+Tengo experiencia en pruebas de software, automatización de regresiones con Selenium o UFT, y el uso de herramientas como ALM y SonarQube para la gestión de calidad y seguimiento de código. Mi perfil se complementa con habilidades de liderazgo adquiridas como gerente general, así como una orientación a resultados y capacidad para la resolución de problemas.
             </p>
           </Col>
         </Row>
