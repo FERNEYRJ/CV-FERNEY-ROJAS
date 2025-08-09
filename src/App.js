@@ -9,6 +9,7 @@ import Studies from './components/Studies';
 import Skills from './components/Skills';
 import Languages from './components/Languages';
 import Contact from './components/Contact';
+import BackToTopButton from './components/BackToTopButton';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Skills />
       <Languages />
       <Contact />
+      <BackToTopButton />
     </div>
   );
 }
