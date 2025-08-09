@@ -10,19 +10,19 @@ const Skills = () => {
         <Row>
           <Col md={6}>
             <h5>PostgreSQL</h5>
-            <ProgressBar now={80} label="Intermedio" />
+            <ProgressBar now={60} label="Intermedio" />
             <h5>Oracle</h5>
-            <ProgressBar now={80} label="Intermedio" />
+            <ProgressBar now={60} label="Intermedio" />
             <h5>SQL Server</h5>
-            <ProgressBar now={80} label="Intermedio" />
+            <ProgressBar now={60} label="Intermedio" />
           </Col>
           <Col md={6}>
             <h5>C#</h5>
-            <ProgressBar now={60} label="Básico" />
+            <ProgressBar now={60} label="Intermedio" />
             <h5>Python</h5>
-            <ProgressBar now={60} label="Básico" />
+            <ProgressBar now={60} label="Intermedio" />
             <h5>JavaScript</h5>
-            <ProgressBar now={60} label="Básico" />
+            <ProgressBar now={60} label="Intermedio" />
           </Col>
         </Row>
       </Container>
