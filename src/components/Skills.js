@@ -15,22 +15,58 @@ const Skills = () => {
         </div>
         <Row>
           <Col md={6}>
+            <h5>C#</h5>
+            <ProgressBar now={60} label="Intermedio" />
+            <h5>JavaScript</h5>
+            <ProgressBar now={60} label="Intermedio" />
+            <h5>Angular</h5>
+            <ProgressBar now={60} label="Intermedio" />
+            <h5>PHP</h5>
+            <ProgressBar now={90} label="Alto" />
             <h5>PostgreSQL</h5>
-            <ProgressBar now={60} label="Intermedio" />
-            <h5>Oracle</h5>
-            <ProgressBar now={60} label="Intermedio" />
-            <h5>SQL Server</h5>
-            <ProgressBar now={60} label="Intermedio" />
+            <ProgressBar now={90} label="Alto" />
+            <h5>DBeaver</h5>
+            <ProgressBar now={90} label="Alto" />
+            <h5>Docker</h5>
+            <ProgressBar now={90} label="Alto" />
+            <h5>UFT</h5>
+            <ProgressBar now={90} label="Alto" />
+            <h5>SonarQube</h5>
+            <ProgressBar now={90} label="Alto" />
+            <h5>Power BI</h5>
+            <ProgressBar now={90} label="Alto" />
+            <h5>Scrum</h5>
+            <ProgressBar now={90} label="Alto" />
+            <h5>Itil</h5>
+            <ProgressBar now={90} label="Alto" />
             <h5>Excel</h5>
             <ProgressBar now={90} label="Alto" />
           </Col>
           <Col md={6}>
-            <h5>C#</h5>
-            <ProgressBar now={60} label="Intermedio" />
             <h5>Python</h5>
             <ProgressBar now={60} label="Intermedio" />
-            <h5>JavaScript</h5>
+            <h5>.NET</h5>
             <ProgressBar now={60} label="Intermedio" />
+            <h5>HTML</h5>
+            <ProgressBar now={60} label="Intermedio" />
+            <h5>Java Standard</h5>
+            <ProgressBar now={90} label="Alto" />
+            <h5>Oracle</h5>
+            <ProgressBar now={90} label="Alto" />
+            <h5>Big Data</h5>
+            <ProgressBar now={90} label="Alto" />
+            <h5>IIS</h5>
+            <ProgressBar now={90} label="Alto" />
+            <h5>Selenium</h5>
+            <ProgressBar now={90} label="Alto" />
+            <h5>SOAP UI</h5>
+            <ProgressBar now={90} label="Alto" />
+            <h5>Win SCP</h5>
+            <ProgressBar now={90} label="Alto" />
+            <h5>Git</h5>
+            <ProgressBar now={70} label="Intermedio" />
+            <h5>SISTEMA SAP ERP</h5>
+            <ProgressBar now={40} label="Bajo" />
             <h5>Word</h5>
             <ProgressBar now={90} label="Alto" />
           </Col>

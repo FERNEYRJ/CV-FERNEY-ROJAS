@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
-import { FaLaptopCode, FaCode } from 'react-icons/fa';
+import { FaCode } from 'react-icons/fa';
 
 const NavigationBar = () => {
   return (
