@@ -18,7 +18,7 @@ const Home = () => {
           <Col>
             {/* Primer Párrafo */}
             <p style={{ textAlign: 'justify' }} className="mb-3">
-              Ingeniero de software con especialización en Seguridad de la Información, con experiencia en el sector tecnológico. Administración de bases de datos PostgreSQL, Oracle y SQL Server, y en el desarrollo de aplicaciones con C#, Python, JavaScript y .NET. Mi experiencia abarca la gestión de entornos de producción, la optimización de backups de bases de datos y el desarrollo web full stack.
+              Ingeniero de software con especialización en Seguridad de la Información. Experiencia en el sector tecnológico, administrando bases de datos PostgreSQL, Oracle y SQL Server, y en el desarrollo de aplicaciones con C#, Python, JavaScript y .NET. Mi experiencia abarca la gestión de entornos de producción, la optimización de backups de bases de datos y el desarrollo web full stack.
             </p>
 
             {/* Segundo Párrafo */}
