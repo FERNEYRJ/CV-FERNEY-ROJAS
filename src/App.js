@@ -5,7 +5,7 @@ import './App.css';
 import NavigationBar from './components/NavigationBar';
 import Home from './components/Home';
 import Experience from './components/Experience';
-import Education from './components/Education';
+import Studies from './components/Studies';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
 
@@ -15,7 +15,7 @@ function App() {
       <NavigationBar />
       <Home />
       <Experience />
-      <Education />
+      <Studies />
       <Skills />
       <Contact />
     </div>
