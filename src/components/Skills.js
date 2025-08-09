@@ -15,6 +15,8 @@ const Skills = () => {
             <ProgressBar now={60} label="Intermedio" />
             <h5>SQL Server</h5>
             <ProgressBar now={60} label="Intermedio" />
+            <h5>Excel</h5>
+            <ProgressBar now={90} label="Alto" />
           </Col>
           <Col md={6}>
             <h5>C#</h5>
@@ -23,6 +25,8 @@ const Skills = () => {
             <ProgressBar now={60} label="Intermedio" />
             <h5>JavaScript</h5>
             <ProgressBar now={60} label="Intermedio" />
+            <h5>Word</h5>
+            <ProgressBar now={90} label="Alto" />
           </Col>
         </Row>
       </Container>
