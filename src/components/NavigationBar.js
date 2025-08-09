@@ -13,6 +13,7 @@ const NavigationBar = () => {
           <Nav.Link href="#experience">Experiencia</Nav.Link>
           <Nav.Link href="#studies">Formación</Nav.Link>
           <Nav.Link href="#skills">Habilidades</Nav.Link>
+          <Nav.Link href="#languages">Idiomas</Nav.Link>
           <Nav.Link href="#contact">Contacto</Nav.Link>
         </Nav>
       </Navbar.Collapse>
