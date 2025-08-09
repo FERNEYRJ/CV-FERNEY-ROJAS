@@ -16,22 +16,18 @@ const Home = () => {
         </Row>
         <Row className="mt-4">
           <Col>
+            {/* Primer Párrafo */}
+            <p style={{ textAlign: 'justify' }} className="mb-3">
+              Ingeniero de software con especialización en Seguridad de la Información, con más de 10 años de experiencia en el sector tecnológico. Experto en la administración de bases de datos PostgreSQL, Oracle y SQL Server, y en el desarrollo de aplicaciones con C#, Python, JavaScript y .NET. Mi experiencia abarca la gestión de entornos de producción, la optimización de backups de bases de datos y el desarrollo web full stack.
+            </p>
+
+            {/* Segundo Párrafo */}
+            <p style={{ textAlign: 'justify' }} className="mb-3">
+              Cuento con una sólida formación en ciberseguridad, respaldada por diplomados y cursos en el área como el de Auditor Líder ISO IEC 27001:2022, lo que complementa mi experiencia en auditoría de sistemas de gestión.
+            </p>
+
+            {/* Tercer Párrafo */}
             <p style={{ textAlign: 'justify' }}>
-          Ingeniero de software con especialización en Seguridad de la Información, con más de 10 años de experiencia en el sector tecnológico. Experto en la administración de bases de datos PostgreSQL, Oracle y SQL Server, y en el desarrollo de aplicaciones con C#, Python, JavaScript y .NET. Mi experiencia abarca la gestión de entornos de producción, la optimización de backups de bases de datos y el desarrollo web full stack.<br />
-
-
-
-
-
-              Cuento con una sólida formación en ciberseguridad , respaldada por diplomados y cursos en el área. Actualmente, estoy en proceso de obtener la certificación de:<br /> 
-
-
-
-
-
-              Auditor Líder ISO IEC 27001:2022, lo que complementa mi experiencia en auditoría de sistemas de gestión.<br />
-
-
               Tengo experiencia en pruebas de software, automatización de regresiones con Selenium o UFT, y el uso de herramientas como ALM y SonarQube para la gestión de calidad y seguimiento de código. Mi perfil se complementa con habilidades de liderazgo adquiridas como gerente general, así como una orientación a resultados y capacidad para la resolución de problemas.
             </p>
           </Col>
