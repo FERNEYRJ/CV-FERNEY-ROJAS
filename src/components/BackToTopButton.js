@@ -31,7 +31,7 @@ const BackToTopButton = () => {
 
   return (
     <div className="back-to-top" onClick={scrollToTop} style={{ display: isVisible ? 'block' : 'none' }}>
-      <FaArrowUp />
+      <span style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)' }}><FaArrowUp /></span>
     </div>
   );
 };

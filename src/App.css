@@ -130,14 +130,15 @@ body {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  text-align: center; /* Changed from flexbox centering */
-  line-height: 40px; /* To vertically center the text/icon */
+  display: flex; /* Re-added flexbox */
+  align-items: center; /* Re-added flexbox centering */
+  justify-content: center; /* Re-added flexbox centering */
   font-size: 26px; /* Adjusted font size for thickness */
-  padding-left: 1px; /* Added to nudge right */
   cursor: pointer;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
   transition: background-color 0.3s ease, transform 0.3s ease;
   z-index: 1000;
+  position: relative; /* Added for absolute positioning of child */
 }
 
 .back-to-top:hover {
