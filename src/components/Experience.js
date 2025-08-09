@@ -36,6 +36,29 @@ const Experience = () => {
               </Card.Body>
             </Card>
           </Col>
+          <Col md={6} className="mb-4">
+            <Card>
+              <Card.Body>
+                <Card.Title>Líder SGSI</Card.Title>
+                <Card.Subtitle className="mb-2 text-muted">Proasistemas S.A. | Julio 2022 – enero 2023 </Card.Subtitle>
+                <Card.Text>
+                  Implementación y gestión del Sistema de Gestión de Seguridad de la Información (SGSI) basado en las normativas ISO.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col md={6} className="mb-4">
+            <Card>
+              <Card.Body>
+                <Card.Title>Desarrollador C# .NET</Card.Title>
+                <Card.Subtitle className="mb-2 text-muted">Incpropol | Diciembre 2020 – Febrero 2022</Card.Subtitle>
+                <Card.Text>
+                Implementación de un sistema eficiente para: monitoreo de entradas y salidas de materiales, Control de asistencia y cumplimiento de horarios.
+
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
           {/* Agrega más experiencias aquí */}
         </Row>
       </Container>
