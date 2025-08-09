@@ -23,7 +23,7 @@ const Home = () => {
 
             {/* Segundo Párrafo */}
             <p style={{ textAlign: 'justify' }} className="mb-3">
-              Cuento con una sólida formación en ciberseguridad, respaldada por diplomados y cursos en el área como el de Auditor Líder ISO IEC 27001:2022, lo que complementa mi experiencia en auditoría de sistemas de gestión.
+              Cuento con una sólida formación en ciberseguridad, respaldada por diplomados y cursos en el área como el de Auditor Líder ISO IEC 27001:2022, lo que complementa mi experiencia en auditoría e implementación de sistemas de gestión (SGSI).
             </p>
 
             {/* Tercer Párrafo */}
