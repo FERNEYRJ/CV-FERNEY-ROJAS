@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.2cd73454.css",
-    "main.js": "/static/js/main.93514482.js",
-    "static/js/453.06b40902.chunk.js": "/static/js/453.06b40902.chunk.js",
-    "index.html": "/index.html",
-    "main.2cd73454.css.map": "/static/css/main.2cd73454.css.map",
-    "main.93514482.js.map": "/static/js/main.93514482.js.map",
-    "453.06b40902.chunk.js.map": "/static/js/453.06b40902.chunk.js.map"
+    "main.css": "/CV-FERNEY-ROJAS/static/css/main.ec7c9a1c.css",
+    "main.js": "/CV-FERNEY-ROJAS/static/js/main.1e437612.js",
+    "static/js/453.06b40902.chunk.js": "/CV-FERNEY-ROJAS/static/js/453.06b40902.chunk.js",
+    "index.html": "/CV-FERNEY-ROJAS/index.html",
+    "main.ec7c9a1c.css.map": "/CV-FERNEY-ROJAS/static/css/main.ec7c9a1c.css.map",
+    "main.1e437612.js.map": "/CV-FERNEY-ROJAS/static/js/main.1e437612.js.map",
+    "453.06b40902.chunk.js.map": "/CV-FERNEY-ROJAS/static/js/453.06b40902.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2cd73454.css",
-    "static/js/main.93514482.js"
+    "static/css/main.ec7c9a1c.css",
+    "static/js/main.1e437612.js"
   ]
 }
