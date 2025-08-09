@@ -1,11 +1,16 @@
 
 import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
+import { FaLaptopCode, FaCode } from 'react-icons/fa';
 
 const NavigationBar = () => {
   return (
     <Navbar bg="light" variant="light" expand="lg" sticky="top">
-      <Navbar.Brand href="#home">Ferney Rojas</Navbar.Brand>
+      <Navbar.Brand href="#home">
+        <div className="navbar-icon-container">
+          <FaCode />
+        </div>
+      </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mx-auto">

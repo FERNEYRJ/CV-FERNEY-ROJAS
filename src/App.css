@@ -101,6 +101,25 @@ body {
   font-weight: bold;
 }
 
+.navbar-icon-container {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px; /* Adjusted for navbar */
+  height: 45px; /* Adjusted for navbar */
+  background: rgba(0, 123, 255, 0.1);
+  border-radius: 10px; /* Rounded corners */
+  font-size: 22px; /* Icon size */
+  color: #007bff;
+  box-shadow: 0 0 15px rgba(0, 123, 255, 0.3); /* Stronger shadow */
+  backdrop-filter: blur(5px); /* Added blur effect */
+  transition: transform 0.3s ease-in-out;
+}
+
+.navbar-icon-container:hover {
+  transform: scale(1.1);
+}
+
 
 .back-to-top {
   position: fixed;
@@ -111,12 +130,10 @@ body {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 26px; /* Ligeramente reducido de 30px */
-  font-weight: bold; /* Añadido para hacerla más gruesa */
-  line-height: 1; /* Añadido para un mejor centrado vertical */
+  text-align: center; /* Changed from flexbox centering */
+  line-height: 40px; /* To vertically center the text/icon */
+  font-size: 26px; /* Adjusted font size for thickness */
+  padding-left: 1px; /* Added to nudge right */
   cursor: pointer;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
   transition: background-color 0.3s ease, transform 0.3s ease;
