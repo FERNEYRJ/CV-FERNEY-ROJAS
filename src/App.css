@@ -1,26 +1,26 @@
 body {
-  background-color: #121212;
-  color: #ffffff;
+  background-color: #f8f9fa;
+  color: #212529;
 }
 
 .bg-light {
-  background-color: #1e1e1e !important;
+  background-color: #ffffff !important;
 }
 
 .card {
-  background-color: #2a2a2a;
-  border: 1px solid #444;
+  background-color: #ffffff;
+  border: 1px solid #dee2e6;
 }
 
 .form-control {
-    background-color: #2a2a2a;
-    color: #ffffff;
-    border: 1px solid #444;
+    background-color: #ffffff;
+    color: #212529;
+    border: 1px solid #dee2e6;
 }
 
 .form-control:focus {
-    background-color: #2a2a2a;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #212529;
     border-color: #007bff;
     box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
 }
@@ -32,4 +32,20 @@ body {
 
 .progress-bar {
     background-color: #007bff;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.75rem;
+  }
+
+  section {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
 }
