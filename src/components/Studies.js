@@ -38,8 +38,7 @@ const Studies = () => {
             <Accordion.Body>
               <ul>
                   <li><strong>Auditoría interna de calidad - NTC ISO 9001 </strong> SENA - 2025</li>
-                  <li><strong>Sistema SAP ERP</strong> Caja De Compensación Familiar Cafam Centro De Educación Para El Trabajo - 2025</li>
-                  <li><strong>Sistema SAP ERP</strong> CAJA DE COMPENSACIÓN FAMILIAR CAFAM CENTRO DE EDUCACIÓN PARA EL TRABAJO - 2025</li>
+                  <li><strong>Sistema SAP ERP</strong> Caja De Compensación Familiar Cafam Centro De Educación Para El Trabajo - 2025</li>                  
                   <li><strong>Desarrollo Web Full Stack, Nivel Avanzado</strong> Cymetria Talento tech Bogotá - 2024</li>
                   <li><strong>Capacitación Sobre Respuesta Ante Incidentes Cibernéticos Y Análisis De Malware</strong> Q-mission (Mintic) - 2024</li>
                   <li><strong>Despliegue De Aplicaciones Y Servicios En Contenedores Docker</strong> SENA - 2023</li>
