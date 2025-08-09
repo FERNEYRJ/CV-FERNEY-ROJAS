@@ -60,7 +60,7 @@ const Skills = () => {
             <h5>Selenium</h5>
             <ProgressBar now={60} label="Intermedio" />
             <h5>SOAP UI</h5>
-            <ProgressBar now={400} label="Bajo" />
+            <ProgressBar now={40} label="Bajo" />
             <h5>Win SCP</h5>
             <ProgressBar now={30} label="Bajo" />
             <h5>Git</h5>
