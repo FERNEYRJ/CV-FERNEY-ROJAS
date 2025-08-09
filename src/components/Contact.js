@@ -2,6 +2,7 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { Container, Row, Col, Form, Button } from 'react-bootstrap';
+import { FaEnvelope, FaPhone } from 'react-icons/fa';
 
 const Contact = () => {
   const form = useRef();
@@ -28,10 +29,15 @@ const Contact = () => {
   return (
     <section id="contact" className="py-5">
       <Container>
-        <h2 className="text-center mb-4">Contacto</h2>
+        <div className="section-title">
+          <div className="icon-container">
+            <FaEnvelope />
+          </div>
+          <h2>Contacto</h2>
+        </div>
         <div className="text-center mb-4">
-          <p><strong>Email:</strong> ferneyrj@hotmail.com</p>
-          <p><strong>Teléfono:</strong> (57) 316-232-9867</p>
+          <p><FaEnvelope /> Email: ferneyrj@hotmail.com</p>
+          <p><FaPhone /> Teléfono: (57) 316-232-9867</p>
         </div>
         <Row>
           <Col md={{ span: 6, offset: 3 }}>

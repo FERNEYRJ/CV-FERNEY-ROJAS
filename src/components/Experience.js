@@ -1,12 +1,18 @@
 
 import React from 'react';
 import { Container, Row, Col, Card } from 'react-bootstrap';
+import { FaBriefcase } from 'react-icons/fa';
 
 const Experience = () => {
   return (
     <section id="experience" className="py-5 bg-light">
       <Container>
-        <h2 className="text-center mb-4">Experiencia Laboral</h2>
+        <div className="section-title">
+          <div className="icon-container">
+            <FaBriefcase />
+          </div>
+          <h2>Experiencia Laboral</h2>
+        </div>
         <Row>
           <Col md={6} className="mb-4">
             <Card>

@@ -1,11 +1,17 @@
 import React from 'react';
 import { Container, Row, Col, Card } from 'react-bootstrap';
+import { FaLanguage } from 'react-icons/fa';
 
 const Languages = () => {
   return (
     <section id="languages" className="py-5">
       <Container>
-        <h2 className="text-center mb-4">Idiomas</h2>
+        <div className="section-title">
+          <div className="icon-container">
+            <FaLanguage />
+          </div>
+          <h2>Idiomas</h2>
+        </div>
         <Row>
           <Col md={{ span: 6, offset: 3 }}>
             <Card>

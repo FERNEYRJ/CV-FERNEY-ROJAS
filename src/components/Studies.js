@@ -1,11 +1,17 @@
 import React from 'react';
 import { Container, Accordion } from 'react-bootstrap';
+import { FaBook } from 'react-icons/fa';
 
 const Studies = () => {
   return (
     <section id="studies" className="py-5 bg-light">
       <Container>
-        <h2 className="text-center mb-4">Formación</h2>
+                <div className="section-title">
+          <div className="icon-container">
+            <FaBook />
+          </div>
+          <h2>Formación</h2>
+        </div>
         <Accordion defaultActiveKey="0">
           <Accordion.Item eventKey="0">
             <Accordion.Header>Estudios Formales</Accordion.Header>

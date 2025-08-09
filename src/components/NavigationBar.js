@@ -8,7 +8,7 @@ const NavigationBar = () => {
       <Navbar.Brand href="#home">Ferney Rojas</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="mr-auto">
+        <Nav className="mx-auto">
           <Nav.Link href="#home">Sobre mí</Nav.Link>
           <Nav.Link href="#experience">Experiencia</Nav.Link>
           <Nav.Link href="#studies">Formación</Nav.Link>

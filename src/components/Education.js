@@ -1,12 +1,18 @@
 
 import React from 'react';
 import { Container, Row, Col, Card } from 'react-bootstrap';
+import { FaUserGraduate } from 'react-icons/fa';
 
 const Education = () => {
   return (
     <section id="education" className="py-5">
       <Container>
-        <h2 className="text-center mb-4">Educación</h2>
+        <div className="section-title">
+          <div className="icon-container">
+            <FaUserGraduate />
+          </div>
+          <h2>Educación</h2>
+        </div>
         <Row>
           <Col md={6} className="mb-4">
             <Card>
