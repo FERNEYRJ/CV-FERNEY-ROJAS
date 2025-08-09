@@ -23,16 +23,16 @@ const Home = () => {
 
 
 
-Cuento con una sólida formación en ciberseguridad , respaldada por diplomados y cursos en el área. Actualmente, estoy en proceso de obtener la certificación de:<br /> 
+              Cuento con una sólida formación en ciberseguridad , respaldada por diplomados y cursos en el área. Actualmente, estoy en proceso de obtener la certificación de:<br /> 
 
 
 
 
 
-Auditor Líder ISO IEC 27001:2022, lo que complementa mi experiencia en auditoría de sistemas de gestión.<br />
+              Auditor Líder ISO IEC 27001:2022, lo que complementa mi experiencia en auditoría de sistemas de gestión.<br />
 
 
-Tengo experiencia en pruebas de software, automatización de regresiones con Selenium o UFT, y el uso de herramientas como ALM y SonarQube para la gestión de calidad y seguimiento de código. Mi perfil se complementa con habilidades de liderazgo adquiridas como gerente general, así como una orientación a resultados y capacidad para la resolución de problemas.
+              Tengo experiencia en pruebas de software, automatización de regresiones con Selenium o UFT, y el uso de herramientas como ALM y SonarQube para la gestión de calidad y seguimiento de código. Mi perfil se complementa con habilidades de liderazgo adquiridas como gerente general, así como una orientación a resultados y capacidad para la resolución de problemas.
             </p>
           </Col>
         </Row>
