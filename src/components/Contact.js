@@ -12,7 +12,7 @@ const Contact = () => {
 
     // Reemplaza con tus propias claves de EmailJS
     const serviceID = 'service_xv2arw9';
-    const templateID = 'template_6z90z1i';
+    const templateID = 'template_qg8rnjw';
     const publicKey = 'wHlsFLN6Wq8qAxgnI';
 
     emailjs.sendForm(serviceID, templateID, form.current, publicKey)
