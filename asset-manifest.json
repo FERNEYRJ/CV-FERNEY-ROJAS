@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/CV-FERNEY-ROJAS/static/css/main.861d6aff.css",
+    "main.css": "/CV-FERNEY-ROJAS/static/css/main.d25c1768.css",
     "main.js": "/CV-FERNEY-ROJAS/static/js/main.c95ccb8f.js",
     "static/js/453.06b40902.chunk.js": "/CV-FERNEY-ROJAS/static/js/453.06b40902.chunk.js",
     "index.html": "/CV-FERNEY-ROJAS/index.html",
-    "main.861d6aff.css.map": "/CV-FERNEY-ROJAS/static/css/main.861d6aff.css.map",
+    "main.d25c1768.css.map": "/CV-FERNEY-ROJAS/static/css/main.d25c1768.css.map",
     "main.c95ccb8f.js.map": "/CV-FERNEY-ROJAS/static/js/main.c95ccb8f.js.map",
     "453.06b40902.chunk.js.map": "/CV-FERNEY-ROJAS/static/js/453.06b40902.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.861d6aff.css",
+    "static/css/main.d25c1768.css",
     "static/js/main.c95ccb8f.js"
   ]
 }
