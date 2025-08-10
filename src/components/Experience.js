@@ -42,7 +42,7 @@ const Experience = () => {
                 <Card.Title>Líder SGSI</Card.Title>
                 <Card.Subtitle className="mb-2 text-muted">Proasistemas S.A. | Septiembre 2021</Card.Subtitle>
                 <Card.Text>
-                  Implementación y gestión del Sistema de Gestión de Seguridad de la Información (SGSI) basado en las normativas ISO.
+                  Implementación y gestión del Sistema de Gestión de Seguridad de la Información (SGSI) basado en las normativas ISO 27001.
                 </Card.Text>
               </Card.Body>
             </Card>
