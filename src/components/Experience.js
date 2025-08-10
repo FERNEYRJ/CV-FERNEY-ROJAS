@@ -40,7 +40,7 @@ const Experience = () => {
             <Card>
               <Card.Body>
                 <Card.Title>Líder SGSI</Card.Title>
-                <Card.Subtitle className="mb-2 text-muted">Proasistemas S.A. | Julio 2022</Card.Subtitle>
+                <Card.Subtitle className="mb-2 text-muted">Proasistemas S.A. | Septiembre 2021</Card.Subtitle>
                 <Card.Text>
                   Implementación y gestión del Sistema de Gestión de Seguridad de la Información (SGSI) basado en las normativas ISO.
                 </Card.Text>
