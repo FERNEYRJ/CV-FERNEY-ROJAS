@@ -18,18 +18,19 @@ const Home = () => {
           <Col>
             {/* Primer Párrafo */}
             <p style={{ textAlign: 'justify' }} className="mb-3">
-              Ingeniero de Software y Especialista en Seguridad de la Información con amplia trayectoria en el sector tecnológico. Experto en administración de bases de datos (PostgreSQL, Oracle, SQL Server) y desarrollo de aplicaciones utilizando .NET, C#, Python y JavaScript. Cuento con sólida experiencia en gestión de infraestructura TI, soporte técnico avanzado y ciberseguridad, incluyendo la certificación como Auditor Líder ISO-IEC 27001:2022. Especialista en la implementación de metodologías ágiles (Scrum), automatización de pruebas (QA), gestión de entornos con Docker y desarrollo Web Full Stack. Profesional orientado a resultados, con capacidad de liderazgo de equipos y resolución de problemas técnicos complejos en entornos de alta disponibilidad.
+              Ingeniero de Software y Especialista en Seguridad de la Información con amplia trayectoria en el sector tecnológico. Experto en administración de bases de datos (PostgreSQL, Oracle, SQL Server) y desarrollo de aplicaciones utilizando .NET, C#, Python y JavaScript. Certificado como Auditor Líder ISO/IEC 27001:2022, con sólida experiencia en ciberseguridad y auditoría de sistemas de gestión (SGSI). Especialista en automatización de pruebas (Selenium, UFT, QA), herramientas de calidad (SonarQube, ALM), metodologías ágiles (Scrum) y gestión de entornos con Docker. Líder técnico orientado a resultados con alta capacidad para la resolución de problemas complejos en entornos de alta disponibilidad.
             </p>
 
-            {/* Segundo Párrafo */}
+            {/* Segundo Párrafo
             <p style={{ textAlign: 'justify' }} className="mb-3">
               Cuento con una sólida formación en ciberseguridad, respaldada por diplomados y cursos en el área como el de Auditor Líder ISO IEC 27001:2022, lo que complementa mi experiencia en auditoría e implementación de sistemas de gestión (SGSI).
-            </p>
+            </p> */}
 
-            {/* Tercer Párrafo */}
+            {/* Tercer Párrafo
             <p style={{ textAlign: 'justify' }}>
               Tengo experiencia en pruebas de software, automatización de regresiones con Selenium o UFT, y el uso de herramientas como ALM y SonarQube para la gestión de calidad y seguimiento de código. Mi perfil se complementa con habilidades de liderazgo adquiridas como gerente general, así como una orientación a resultados y capacidad para la resolución de problemas.
-            </p>
+            </p> */}
+                    
           </Col>
         </Row>
       </Container>
