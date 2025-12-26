@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Container, Row, Col, Card } from 'react-bootstrap';
 import { FaBriefcase } from 'react-icons/fa';
@@ -13,8 +12,8 @@ const Experience = () => {
           </div>
           <h2>Experiencia Laboral</h2>
         </div>
-        <Row>
-           <Col md={4} className="mb-4">
+        <Row className="justify-content-center">
+          <Col md={8} className="mb-4">
             <Card>
               <Card.Body>
                 <Card.Title>Ingeniero Líder de Soporte TI y Gestión Tecnológica</Card.Title>
@@ -25,7 +24,9 @@ const Experience = () => {
               </Card.Body>
             </Card>
           </Col>
-          <Col md={4} className="mb-4">
+        </Row>
+        <Row>
+          <Col md={6} className="mb-4">
             <Card>
               <Card.Body>
                 <Card.Title>Soporte de Aplicaciones</Card.Title>
@@ -36,7 +37,7 @@ const Experience = () => {
               </Card.Body>
             </Card>
           </Col>
-          <Col md={4} className="mb-4">
+          <Col md={6} className="mb-4">
             <Card>
               <Card.Body>
                 <Card.Title>Ingeniero de Pruebas de Software</Card.Title>
@@ -47,7 +48,7 @@ const Experience = () => {
               </Card.Body>
             </Card>
           </Col>
-          <Col md={4} className="mb-4">
+          <Col md={6} className="mb-4">
             <Card>
               <Card.Body>
                 <Card.Title>Líder SGSI</Card.Title>
@@ -58,7 +59,7 @@ const Experience = () => {
               </Card.Body>
             </Card>
           </Col>
-          <Col md={4} className="mb-4">
+          <Col md={6} className="mb-4">
             <Card>
               <Card.Body>
                 <Card.Title>Desarrollador C# .NET</Card.Title>
@@ -70,7 +71,6 @@ const Experience = () => {
               </Card.Body>
             </Card>
           </Col>
-          {/* Agrega más experiencias aquí */}
         </Row>
       </Container>
     </section>
