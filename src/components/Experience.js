@@ -14,6 +14,17 @@ const Experience = () => {
           <h2>Experiencia Laboral</h2>
         </div>
         <Row>
+           <Col md={6} className="mb-4">
+            <Card>
+              <Card.Body>
+                <Card.Title>Ingeniero Líder de Soporte TI y Gestión Tecnológica</Card.Title>
+                <Card.Subtitle className="mb-2 text-muted">Datafile internacional | Octubre 2023 - Octubre 2024</Card.Subtitle>
+                <Card.Text>
+                  Formulación e implementación de planes y proyectos de TI bajo estándares institucionales. Soporte técnico a usuarios, activos informáticos y sistemas de información institucionales. Operación y mantenimiento de software, hardware, redes y comunicaciones de la entidad. Gestión de copias de respaldo, seguridad y disponibilidad de la plataforma tecnológica y bases de datos corporativas. Capacitación técnica al personal sobre el uso de herramientas informáticas y sistemas en producción. Dirección y supervisión de personal mediante la gestión de procedimientos y toma de decisiones.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
           <Col md={6} className="mb-4">
             <Card>
               <Card.Body>
