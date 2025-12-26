@@ -18,7 +18,7 @@ const Home = () => {
           <Col>
             {/* Primer Párrafo */}
             <p style={{ textAlign: 'justify' }} className="mb-3">
-              Ingeniero de software con especialización en Seguridad de la Información. Experiencia en el sector tecnológico, administrando bases de datos PostgreSQL, Oracle y SQL Server, y en el desarrollo de aplicaciones con C#, Python, JavaScript y .NET. Mi experiencia abarca la gestión de entornos de producción, la optimización de backups de bases de datos y el desarrollo web full stack.
+              Ingeniero de Software y Especialista en Seguridad de la Información con amplia trayectoria en el sector tecnológico. Experto en administración de bases de datos (PostgreSQL, Oracle, SQL Server) y desarrollo de aplicaciones utilizando .NET, C#, Python y JavaScript. Cuento con sólida experiencia en gestión de infraestructura TI, soporte técnico avanzado y ciberseguridad, incluyendo la certificación como Auditor Líder ISO-IEC 27001:2022. Especialista en la implementación de metodologías ágiles (Scrum), automatización de pruebas (QA), gestión de entornos con Docker y desarrollo Web Full Stack. Profesional orientado a resultados, con capacidad de liderazgo de equipos y resolución de problemas técnicos complejos en entornos de alta disponibilidad.
             </p>
 
             {/* Segundo Párrafo */}
