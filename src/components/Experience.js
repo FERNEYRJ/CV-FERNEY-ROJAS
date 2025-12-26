@@ -17,7 +17,7 @@ const Experience = () => {
             <Card>
               <Card.Body>
                 <Card.Title>Ingeniero Líder de Soporte TI y Gestión Tecnológica</Card.Title>
-                <Card.Subtitle className="mb-2 text-muted">Instituto Nacional de Metrología de Colombia | Septiembre 2025 - Actualmente</Card.Subtitle>
+                <Card.Subtitle className="mb-2 text-muted">Instituto Nacional de Metrología de Colombia | Septiembre 2025 - Actualmente.</Card.Subtitle>
                 <Card.Text>
                   Formulación e implementación de planes y proyectos de TI bajo estándares institucionales. Soporte técnico a usuarios, activos informáticos y sistemas de información institucionales. Operación y mantenimiento de software, hardware, redes y comunicaciones de la entidad. Gestión de copias de respaldo, seguridad y disponibilidad de la plataforma tecnológica y bases de datos corporativas. Capacitación técnica al personal sobre el uso de herramientas informáticas y sistemas en producción. Dirección y supervisión de personal mediante la gestión de procedimientos y toma de decisiones.
                 </Card.Text>
