@@ -1,8 +1,10 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+test('renders principal cv headings', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+
+  expect(screen.getByText(/Jose Ferney Rojas Jimenez/i)).toBeInTheDocument();
+  expect(screen.getByText(/Experiencia laboral/i)).toBeInTheDocument();
+  expect(screen.getByText(/Disponible para roles de ingenieria/i)).toBeInTheDocument();
 });
