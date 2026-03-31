@@ -149,14 +149,22 @@ const education = [
 ];
 
 const certifications = [
-  'Auditoría interna de calidad NTC ISO 9001 - SENA (2025)',
-  'Auditor Líder ISO 27001:2022 con reconocimiento IQNET - ICONTEC (2025)',
-  'Sistema SAP ERP - CAFAM (2025)',
-  'Desarrollo web full stack, nivel avanzado - Cymetria Talento Tech Bogotá (2024)',
-  'Respuesta ante incidentes cibernéticos y análisis de malware - MinTIC / Q-mission (2024)',
-  'Despliegue de aplicaciones y servicios en contenedores Docker - SENA (2023)',
+  'Diplomado Habilidades en Programación con Énfasis en Aplicaciones Web - Universidad Nacional (2022, 800 horas)',
+  'Programación web - Oracle Next Education / Alura (2023, 331 horas)',
+  'Desarrollo web full stack, nivel avanzado - Cymetria Talento Tech Bogotá (2024, 159 horas)',
+  'Programador en C# - Fundación Carlos Slim (2020, 220 horas)',
+  'Programación con JavaScript - Fundación Telefónica Movistar (2022, 40 horas)',
+  'Control de versiones - Fundación Carlos Slim (2019, 220 horas)',
+  'Variables y estructuras de control en Python - SENA (2023, 40 horas)',
+  'Despliegue de aplicaciones y servicios en contenedores Docker - SENA (2023, 40 horas)',
+  'Aplicación del marco de trabajo Scrum para proyectos de desarrollo de software - SENA (2023, 40 horas)',
   'Scrum Foundation Professional Certificate - CertiProf (2022)',
-  'Diplomado en Seguridad Informática Ágil (2022)',
+  'Diplomado en Seguridad Informática Ágil - Instituto de Ciberseguridad (2022, 120 horas)',
+  'Apropiación de los conceptos en ciberseguridad - SENA (2023, 40 horas)',
+  'Habilidades digitales en ciberseguridad - Universidad de Antioquia (2023, 20 horas)',
+  'Habilidades digitales en Data Science e Inteligencia Artificial - Universidad de Antioquia (2023, 20 horas)',
+  'Habilidades digitales en programación web - Universidad de Antioquia (2023, 20 horas)',
+  'Capacitación sobre respuesta ante incidentes cibernéticos y análisis de malware - Q-mission / MinTIC (2024, 40 horas)',
 ];
 
 const contactLinks = [
