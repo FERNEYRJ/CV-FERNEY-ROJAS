@@ -21,7 +21,7 @@ import {
 
 const keyStats = [
   { value: '5+ años', label: 'experiencia en soporte TI, desarrollo y automatización' },
-  { value: '98%', label: 'cumplimiento de ANS en operación de mesa de ayuda' },
+  { value: 'Full stack + TI', label: 'perfil híbrido entre software, soporte e infraestructura' },
   { value: '3 líneas', label: 'software, infraestructura y seguridad de la información' },
 ];
 
@@ -55,18 +55,6 @@ const experience = [
       'Soporte a usuarios, activos informáticos y sistemas críticos de la entidad.',
       'Operación y mantenimiento de software, hardware, redes, comunicaciones y bases de datos.',
       'Gestión de respaldos, seguridad, disponibilidad y acompañamiento técnico al personal.',
-    ],
-  },
-  {
-    role: 'Coordinador de mesa de ayuda',
-    company: 'Contraloría',
-    period: 'Experiencia destacada',
-    summary:
-      'Fortalecimiento del modelo de soporte con foco en ANS, automatización y estabilidad operativa.',
-    bullets: [
-      'Lideré la transición operativa hacia el modelo MGGTI, asegurando el cumplimiento del 98% de los ANS.',
-      'Implementé scripts de automatización para migración de perfiles de usuario y reducción del 40% en tiempos de configuración.',
-      'Fortalecí la continuidad del negocio con soporte nivel 2, seguimiento de incidentes y enfoque ITIL.',
     ],
   },
   {
