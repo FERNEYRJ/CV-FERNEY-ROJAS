@@ -273,7 +273,7 @@ function App() {
         <section className="section profile-section" id="perfil">
           <div className="section-heading">
             <span>Perfil profesional</span>
-            <h2>Distribución clara, lectura rápida y narrativa más fuerte para posicionar tu perfil.</h2>
+            <h2>Perfil orientado a resultados, continuidad operativa y soluciones tecnológicas.</h2>
           </div>
 
           <div className="profile-layout">
