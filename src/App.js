@@ -250,13 +250,8 @@ function App() {
 
           <aside className="hero-side">
             <section className="panel command-card">
-              <div className="terminal-bar">
-                <span />
-                <span />
-                <span />
-              </div>
               <div className="command-copy">
-                <p className="command-line">$ perfil.actual()</p>
+                <p className="command-label">Perfil destacado</p>
                 <h2>Software, soporte e infraestructura en una sola propuesta profesional.</h2>
                 <ul className="command-list">
                   <li>Optimización de procesos y tiempos de respuesta.</li>

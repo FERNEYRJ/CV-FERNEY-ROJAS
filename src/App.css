@@ -308,36 +308,20 @@ a {
   padding: 1.25rem;
 }
 
-.terminal-bar {
-  display: flex;
-  gap: 0.4rem;
-  margin-bottom: 1rem;
-}
-
-.terminal-bar span {
-  width: 0.72rem;
-  height: 0.72rem;
-  border-radius: 50%;
-  background: rgba(234, 244, 255, 0.18);
-}
-
-.terminal-bar span:first-child {
-  background: #ff6b7a;
-}
-
-.terminal-bar span:nth-child(2) {
-  background: #ffd166;
-}
-
-.terminal-bar span:last-child {
-  background: #74f7c5;
-}
-
-.command-line {
+.command-label {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.42rem 0.8rem;
+  margin-bottom: 0.8rem;
+  border: 1px solid var(--line-strong);
+  border-radius: 999px;
+  background: rgba(73, 214, 255, 0.08);
   margin: 0 0 0.6rem;
   color: var(--accent);
-  font-family: 'Consolas', 'Courier New', monospace;
-  font-size: 0.94rem;
+  font-size: 0.8rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
 }
 
 .command-copy h2 {
