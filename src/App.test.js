@@ -5,6 +5,6 @@ test('renders principal cv headings', () => {
   render(<App />);
 
   expect(screen.getByText(/Jose Ferney Rojas Jimenez/i)).toBeInTheDocument();
-  expect(screen.getByText(/Experiencia laboral/i)).toBeInTheDocument();
-  expect(screen.getByText(/Disponible para roles de ingenieria/i)).toBeInTheDocument();
+  expect(screen.getByText(/Trayectoria construida entre soporte/i)).toBeInTheDocument();
+  expect(screen.getByText(/Disponible para proyectos, roles de soporte TI/i)).toBeInTheDocument();
 });
