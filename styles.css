@@ -136,3 +136,87 @@ a { color: inherit; text-decoration: none; }
   .timeline-header { flex-direction: column; }
   .value-item { grid-template-columns: 1fr; }
 }
+
+.icon-svg {
+  width: 1.35rem;
+  height: 1.35rem;
+  overflow: visible;
+}
+
+.focus-card,
+.stack-card,
+.contact-card {
+  position: relative;
+  overflow: hidden;
+  transition: transform 240ms ease, border-color 240ms ease, box-shadow 240ms ease, background 240ms ease;
+}
+
+.focus-card::after,
+.stack-card::after,
+.contact-card::after {
+  content: '';
+  position: absolute;
+  inset: -35% auto auto -20%;
+  width: 70%;
+  height: 140%;
+  background: linear-gradient(115deg, transparent 0%, rgba(73, 214, 255, 0.2) 45%, transparent 100%);
+  transform: translateX(-140%) skewX(-22deg);
+  transition: transform 520ms ease;
+  pointer-events: none;
+}
+
+.focus-card:hover,
+.stack-card:hover,
+.contact-card:hover {
+  transform: translateY(-8px);
+  border-color: var(--line-strong);
+  background: linear-gradient(180deg, rgba(10, 22, 42, 0.98), rgba(7, 16, 31, 0.9));
+  box-shadow: 0 24px 55px rgba(0, 0, 0, 0.42), 0 0 0 1px rgba(73, 214, 255, 0.08);
+}
+
+.focus-card:hover::after,
+.stack-card:hover::after,
+.contact-card:hover::after {
+  transform: translateX(240%) skewX(-22deg);
+}
+
+.focus-icon,
+.stack-icon,
+.contact-icon {
+  position: relative;
+  overflow: hidden;
+  transition: transform 240ms ease, box-shadow 240ms ease, border-color 240ms ease, background 240ms ease;
+}
+
+.focus-icon::before,
+.stack-icon::before,
+.contact-icon::before {
+  content: '';
+  position: absolute;
+  inset: 2px;
+  border-radius: inherit;
+  background: radial-gradient(circle at 30% 30%, rgba(255,255,255,0.18), transparent 55%);
+  opacity: 0.9;
+}
+
+.focus-card:hover .focus-icon,
+.stack-card:hover .stack-icon,
+.contact-card:hover .contact-icon {
+  transform: translateY(-4px) scale(1.08) rotate(-6deg);
+  border-color: rgba(110, 203, 255, 0.42);
+  box-shadow: 0 14px 28px rgba(43, 140, 255, 0.24), 0 0 18px rgba(73, 214, 255, 0.18);
+  background: linear-gradient(135deg, rgba(73, 214, 255, 0.28), rgba(43, 140, 255, 0.34));
+}
+
+.contact-card:hover .contact-icon .icon-svg,
+.focus-card:hover .focus-icon .icon-svg,
+.stack-card:hover .stack-icon .icon-svg {
+  animation: iconPulse 760ms ease;
+}
+
+@keyframes iconPulse {
+  0% { transform: scale(1) rotate(0deg); }
+  35% { transform: scale(1.16) rotate(6deg); }
+  70% { transform: scale(0.96) rotate(-4deg); }
+  100% { transform: scale(1) rotate(0deg); }
+}
