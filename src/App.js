@@ -177,7 +177,7 @@ const contactLinks = [
   },
   {
     title: 'LinkedIn',
-    value: 'linkedin.com/in/jose-ferney-rojas-jimenez-1429b31a5',
+    value: 'www.linkedin.com/in/jose-ferney-rojas-jimenez-1429b31a5',
     href: 'https://www.linkedin.com/in/jos%C3%A9-ferney-rojas-jim%C3%A9nez-1429b31a5',
     icon: <FaLinkedin />,
   },
